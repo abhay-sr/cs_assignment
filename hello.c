@@ -1,13 +1,12 @@
 #include<stdio.h>
 
-void microkernel_sendmsg(char *a)
+void microkernel_getmsg(char *b)
 {
-	printf("microkernel:%s\n",a);
+	//TODO:getmsg feature
 }
 
 void main()
 {
 	printf("Helloworld\n");
 	printf("This must be a monolithic design\n");
-	microkernel_sendmsg("is more portable");
 }
