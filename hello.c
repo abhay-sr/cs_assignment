@@ -14,6 +14,5 @@ void main()
 {
 	printf("Helloworld\n");
 	printf("This must be a monolithic design\n");
-	printf("this is a change");
 	microkernel_sendmsg("is more portable");
 }
